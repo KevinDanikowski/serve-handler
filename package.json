@@ -1,5 +1,5 @@
 {
-  "name": "serve",
+  "name": "@kevindanikowski/serve",
   "version": "12.0.0",
   "description": "Static file serving and directory listing",
   "scripts": {
@@ -10,7 +10,10 @@
   "files": [
     "bin"
   ],
-  "repository": "vercel/serve",
+  "repository": "kmdanikowski/serve",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "serve": "./bin/serve.js"
   },
